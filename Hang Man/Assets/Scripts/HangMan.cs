@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.UI;
@@ -15,12 +16,45 @@ public class HangMan : MonoBehaviour
 
     public string chosenWord = "";
 
-    public char letterGuess = 'a';
+    public char letterGuess = '0';
 
     public bool gameOver = false;
 
     public Text gameStatis;
 
+    public int streak = 0;
+
+    public char letter01 = '0';
+    public char letter02 = '0';
+    public char letter03 = '0';
+    public char letter04 = '0';
+    public char letter05 = '0';
+    public char letter06 = '0';
+    public char letter07 = '0';
+    public char letter08 = '0';
+    public char letter09 = '0';
+
+    public bool evenLetterWord = true;
+
+    public GameObject Letter01;
+    public GameObject Letter02;
+    public GameObject Letter03;
+    public GameObject Letter04;
+    public GameObject Letter05;
+    public GameObject Letter06;
+    public GameObject Letter07;
+    public GameObject Letter08;
+    public GameObject Letter09;
+
+    public GameObject textBox01;
+    public GameObject textBox02;
+    public GameObject textBox03;
+    public GameObject textBox04;
+    public GameObject textBox05;
+    public GameObject textBox06;
+    public GameObject textBox07;
+    public GameObject textBox08;
+    public GameObject textBox09;
     // Start is called before the first frame update
     void Start()
     {
@@ -87,8 +121,50 @@ public class HangMan : MonoBehaviour
         else if (buttonClicked == -2)
             playerLives++;
 
+        //letters that are not used BHJQVXZ
+
         if (buttonClicked == 1)
             letterGuess = 'a';
+            if (wordChosen == 1)
+            {
+                
+            }
+            else if (wordChosen == 2)
+            {
+                
+            }
+            else if (wordChosen == 3)
+            {
+                
+            }
+            else if (wordChosen == 4)
+            {
+                
+            }
+            else if (wordChosen == 5)
+            {
+                
+            }
+            else if (wordChosen == 6)
+            {
+                
+            }
+            else if (wordChosen == 7)
+            {
+                
+            }
+            else if (wordChosen == 8)
+            {
+                
+            }
+            else if (wordChosen == 9)
+            {
+                
+            }
+            else if (wordChosen == 10)
+            {
+                
+            }
         else if (buttonClicked == 2)
             letterGuess = 'b';
         else if (buttonClicked == 3)
@@ -149,60 +225,160 @@ public class HangMan : MonoBehaviour
             chosenWord = "Tempt";
             Debug.Log(chosenWord);
             letterCount = 5;
+            evenLetterWord = false;
+            letter01 = '0';
+            letter02 = '0';
+            letter03 = 'T';
+            letter04 = 'E';
+            letter05 = 'M';
+            letter06 = 'P';
+            letter07 = 'T';
+            letter08 = '0';
+            letter09 = '0';
         }
         else if (wordChosen == 2)
         {
             chosenWord = "Glory";
             Debug.Log(chosenWord);
             letterCount = 5;
+            evenLetterWord = false;
+            letter01 = '0';
+            letter02 = '0';
+            letter03 = 'G';
+            letter04 = 'L';
+            letter05 = 'O';
+            letter06 = 'R';
+            letter07 = 'Y';
+            letter08 = '0';
+            letter09 = '0';
         }
         else if (wordChosen == 3)
         {
             chosenWord = "Radical";
             Debug.Log(chosenWord);
             letterCount = 7;
+            evenLetterWord = false;
+            letter01 = '0';
+            letter02 = 'R';
+            letter03 = 'A';
+            letter04 = 'D';
+            letter05 = 'I';
+            letter06 = 'C';
+            letter07 = 'A';
+            letter08 = 'L';
+            letter09 = '0';
         }
         else if (wordChosen == 4)
         {
             chosenWord = "Pocket";
             Debug.Log(chosenWord);
             letterCount = 6;
+            evenLetterWord = true;
+            letter01 = '0';
+            letter02 = '0';
+            letter03 = 'P';
+            letter04 = 'O';
+            letter05 = 'C';
+            letter06 = 'K';
+            letter07 = 'E';
+            letter08 = 'T';
+            letter09 = '0';
         }
         else if (wordChosen == 5)
         {
             chosenWord = "Cart";
             Debug.Log(chosenWord);
             letterCount = 4;
+            evenLetterWord = true;
+            letter01 = '0';
+            letter02 = '0';
+            letter03 = '0';
+            letter04 = 'C';
+            letter05 = 'A';
+            letter06 = 'R';
+            letter07 = 'T';
+            letter08 = '0';
+            letter09 = '0';
         }
         else if (wordChosen == 6)
         {
             chosenWord = "Respect";
             Debug.Log(chosenWord);
             letterCount = 7;
+            evenLetterWord = false;
+            letter01 = '0';
+            letter02 = 'R';
+            letter03 = 'E';
+            letter04 = 'S';
+            letter05 = 'P';
+            letter06 = 'E';
+            letter07 = 'C';
+            letter08 = 'T';
+            letter09 = '0';
         }
         else if (wordChosen == 7)
         {
             chosenWord = "Proposal";
             Debug.Log(chosenWord);
             letterCount = 8;
+            evenLetterWord = true;
+            letter01 = '0';
+            letter02 = 'P';
+            letter03 = 'R';
+            letter04 = 'O';
+            letter05 = 'P';
+            letter06 = 'O';
+            letter07 = 'S';
+            letter08 = 'A';
+            letter09 = 'L';
         }
         else if (wordChosen == 8)
         {
             chosenWord = "Return";
             Debug.Log(chosenWord);
             letterCount = 6;
+            evenLetterWord = true;
+            letter01 = '0';
+            letter02 = '0';
+            letter03 = 'R';
+            letter04 = 'E';
+            letter05 = 'T';
+            letter06 = 'U';
+            letter07 = 'R';
+            letter08 = 'N';
+            letter09 = '0';
         }
         else if (wordChosen == 9)
         {
             chosenWord = "Fog";
             Debug.Log(chosenWord);
             letterCount = 3;
+            evenLetterWord = false;
+            letter01 = '0';
+            letter02 = '0';
+            letter03 = '0';
+            letter04 = 'F';
+            letter05 = 'O';
+            letter06 = 'G';
+            letter07 = '0';
+            letter08 = '0';
+            letter09 = '0';
         }
         else if (wordChosen == 10)
         {
             chosenWord = "Wisecrack";
             Debug.Log(chosenWord);
             letterCount = 9;
+            evenLetterWord = false;
+            letter01 = 'W';
+            letter02 = 'I';
+            letter03 = 'S';
+            letter04 = 'E';
+            letter05 = 'C';
+            letter06 = 'R';
+            letter07 = 'A';
+            letter08 = 'C';
+            letter09 = 'K';
         }
 
         if(playerLives >= 10)
@@ -234,11 +410,11 @@ public class HangMan : MonoBehaviour
         }
     }
 
-    void Example(string[] args)
+    /*void Example(string[] args)
     {
         string str = chosenWord;
         char value = letterGuess;
         bool result = str.Contains(value);
         Debug.Log(result);
-    }
+    }*/
 }
