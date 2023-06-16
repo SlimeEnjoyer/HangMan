@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
+//using UnityEditor;
 using UnityEngine;
-using UnityEngine.Animations;
+//using UnityEngine.Animations;
 
 public class SpriteChange : MonoBehaviour
 {
