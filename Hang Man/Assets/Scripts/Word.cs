@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Word : MonoBehaviour
 {
+    //as you can see, I am amazing with my naming conventions
+
     public GameObject hangMan;
     public GameObject Letter01;
     public GameObject Letter02;
@@ -16,6 +18,8 @@ public class Word : MonoBehaviour
     public GameObject Letter08;
     public GameObject Letter09;
 
+
+    //I'll explain why this is important later
     public char letter001 = '0';
     public char letter002 = '0';
     public char letter003 = '0';
@@ -26,6 +30,7 @@ public class Word : MonoBehaviour
     public char letter008 = '0';
     public char letter009 = '0';
     private bool evenLetters = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +40,7 @@ public class Word : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //this will decide whether the word is even or not as well as make it so the letter variables in the main script will adjust the letters in this scripts letter variables
         evenLetters = hangMan.GetComponent<HangMan>().evenLetterWord;
         letter001 = hangMan.GetComponent<HangMan>().letter01;
         letter002 = hangMan.GetComponent<HangMan>().letter02;
@@ -46,6 +52,7 @@ public class Word : MonoBehaviour
         letter008 = hangMan.GetComponent<HangMan>().letter08;
         letter009 = hangMan.GetComponent<HangMan>().letter09;
 
+        //this'll make it so the random word will be centred, cause we love organisation, just look at my usb files (don't)
         if (evenLetters == true)
         {
             transform.position = new Vector3(463, 375.7f, 0);
@@ -54,6 +61,8 @@ public class Word : MonoBehaviour
         {
             transform.position = new Vector3(478, 375.7f, 0);
         }
+
+        //so basically, if any of the word letters are 0 (basically if a letter has any less than 9 letters the missing characters will be replaces with 0 so they'll be blank) the code will make them blank.
         if (letter001 == '0')
         {
             //get the object (panel?), get the Image component of that panel

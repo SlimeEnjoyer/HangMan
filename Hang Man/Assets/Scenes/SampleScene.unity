@@ -948,15 +948,41 @@ MonoBehaviour:
   Letter07: {fileID: 2132208641}
   Letter08: {fileID: 1349952397}
   Letter09: {fileID: 1691593659}
-  textBox01: {fileID: 1502344446}
-  textBox02: {fileID: 431559294}
-  textBox03: {fileID: 612338584}
-  textBox04: {fileID: 350540180}
-  textBox05: {fileID: 1195280496}
-  textBox06: {fileID: 743896379}
-  textBox07: {fileID: 115413269}
-  textBox08: {fileID: 1014885853}
-  textBox09: {fileID: 113906047}
+  textBox01: {fileID: 1502344448}
+  textBox02: {fileID: 431559296}
+  textBox03: {fileID: 612338586}
+  textBox04: {fileID: 350540182}
+  textBox05: {fileID: 1195280498}
+  textBox06: {fileID: 743896381}
+  textBox07: {fileID: 115413271}
+  textBox08: {fileID: 1014885855}
+  textBox09: {fileID: 113906049}
+  letterA: {fileID: 627128780}
+  letterB: {fileID: 110310521}
+  letterC: {fileID: 695519611}
+  letterD: {fileID: 1410207351}
+  letterE: {fileID: 1028501601}
+  letterF: {fileID: 1983969376}
+  letterG: {fileID: 1993254141}
+  letterH: {fileID: 1192777495}
+  letterI: {fileID: 257802348}
+  letterJ: {fileID: 1365489372}
+  letterK: {fileID: 946954826}
+  letterL: {fileID: 1417528126}
+  letterM: {fileID: 319131847}
+  letterN: {fileID: 1658067055}
+  letterO: {fileID: 532735186}
+  letterP: {fileID: 1525497961}
+  letterQ: {fileID: 820070995}
+  letterR: {fileID: 530650987}
+  letterS: {fileID: 230536483}
+  letterT: {fileID: 1686659784}
+  letterU: {fileID: 1161381956}
+  letterV: {fileID: 220198442}
+  letterW: {fileID: 1313955337}
+  letterX: {fileID: 1339028917}
+  letterY: {fileID: 1925494279}
+  letterZ: {fileID: 1215534774}
 --- !u!1 &130894300
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-//using UnityEditor;
+//using UnityEditor; didn't end up using this so I just commented it out for version history
 using UnityEngine;
-//using UnityEngine.Animations;
+//using UnityEngine.Animations; same thing with this, didn't end up using it
 
 public class SpriteChange : MonoBehaviour
 {
+    //this is to grab the gameobject
     public GameObject hangMan;
 
+    //this is to grab the sprites the gameobject will swap to
     public Sprite hangBase;
     public Sprite hang01;
     public Sprite hang02;
@@ -20,8 +22,10 @@ public class SpriteChange : MonoBehaviour
     public Sprite hang09;
     public Sprite hang10;
 
+    //this is so that the sprite swapping works, if this is gone, everything implodes
     public SpriteRenderer spriteRenderer;
 
+    //this will be used later, and is really only used to grab the lives from the main script
     private int lives = 0;
     void Start()
     {
@@ -31,6 +35,7 @@ public class SpriteChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //this will grab the lives from the main code so that the hangman sprite will change based on the amount of lives that are left.
         lives = hangMan.GetComponent<HangMan>().playerLives;
         if (lives == 10)
         {
