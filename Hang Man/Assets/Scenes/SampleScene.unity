@@ -924,6 +924,7 @@ MonoBehaviour:
   playerLives: 10
   wordChosen: 0
   letterCount: 0
+  numberLetterCorrect: 0
   chosenWord: 
   letterGuess: 48
   gameOver: 0

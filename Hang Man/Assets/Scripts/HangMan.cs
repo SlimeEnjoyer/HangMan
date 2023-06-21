@@ -1,24 +1,3 @@
-/*
-
-
-
-
-
-
-
-
-    before you look at this code, I would like to apologise to all programers or people with programing experience within the room
-    althought the program works, the amount of copy and paste within itself and organisation within this script might cause severe mental and physical anguish
-    looking at this code is not for the faint hearted.
-
-
-
-    you have been warned.
-
-
-
-
-*/
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -715,48 +694,58 @@ public class HangMan : MonoBehaviour
             {
                 playerLives--;
                 letterL.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterL.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 textBox04.text = "L";
+                letterL.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
                 textBox08.text = "L";
+                letterL.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 playerLives--;
                 letterL.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterL.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 playerLives--;
                 letterL.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterL.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 playerLives--;
                 letterL.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterL.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 textBox09.text = "L";
+                letterL.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 playerLives--;
                 letterL.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterL.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterL.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterL.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 playerLives--;
                 letterL.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterL.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 13)
@@ -766,52 +755,62 @@ public class HangMan : MonoBehaviour
             if (wordChosen == 1)
             {
                 textBox05.text = "M";
+                letterM.GetComponent<Button>().enabled = false;
 
             }
             else if (wordChosen == 2)
             {
                 playerLives--;
                 letterM.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterM.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
                 playerLives--;
                 letterM.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterM.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 playerLives--;
                 letterM.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterM.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 playerLives--;
                 letterM.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterM.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 playerLives--;
                 letterM.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterM.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 playerLives--;
                 letterM.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterM.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 playerLives--;
                 letterM.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterM.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterM.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterM.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 playerLives--;
                 letterM.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterM.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 14)
@@ -822,50 +821,60 @@ public class HangMan : MonoBehaviour
             {
                 playerLives--;
                 letterN.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterN.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 playerLives--;
                 letterN.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterN.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
                 playerLives--;
                 letterN.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterN.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 playerLives--;
                 letterN.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterN.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 playerLives--;
                 letterN.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterN.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 playerLives--;
                 letterN.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterN.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 playerLives--;
                 letterN.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterN.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 textBox08.text = "N";
+                letterN.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterN.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterN.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 playerLives--;
                 letterN.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterN.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 15)
@@ -876,48 +885,58 @@ public class HangMan : MonoBehaviour
             {
                 playerLives--;
                 letterO.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterO.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 textBox05.text = "O";
+                letterO.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
                 playerLives--;
                 letterO.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterO.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 textBox04.text = "O";
+                letterO.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 playerLives--;
                 letterO.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterO.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 playerLives--;
                 letterO.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterO.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 textBox04.text = "O";
                 textBox07.text = "O";
+                letterO.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 playerLives--;
                 letterO.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterO.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 textBox05.text = "O";
+                letterO.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 playerLives--;
                 letterO.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterO.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 16)
@@ -927,49 +946,59 @@ public class HangMan : MonoBehaviour
             if (wordChosen == 1)
             {
                 textBox06.text = "P";
+                letterP.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 playerLives--;
                 letterP.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterP.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
                 playerLives--;
                 letterP.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterP.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 textBox03.text = "P";
+                letterP.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 playerLives--;
                 letterP.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterP.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 textBox05.text = "P";
+                letterP.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 textBox02.text = "P";
                 textBox05.text = "P";
+                letterP.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 playerLives--;
                 letterP.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterP.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterP.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterP.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 playerLives--;
                 letterP.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterP.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 17)
@@ -978,6 +1007,7 @@ public class HangMan : MonoBehaviour
             Debug.Log(letterGuess);
             playerLives--;
             letterQ.GetComponent<Image>().color = new Color(255, 0, 0);
+            letterQ.GetComponent<Button>().enabled = false;
         }
         else if (buttonClicked == 18)
         {
@@ -987,45 +1017,55 @@ public class HangMan : MonoBehaviour
             {
                 playerLives--;
                 letterR.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterR.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 textBox06.text = "R";
+                letterR.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
                 textBox02.text = "R";
+                letterR.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 playerLives--;
                 letterR.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterR.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 textBox06.text = "R";
+                letterR.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 textBox02.text= "R";
+                letterR.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 textBox03.text = "R";
+                letterR.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 textBox03.text = "R";
                 textBox07.text = "R";
+                letterR.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterR.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterR.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 textBox06.text= "R";
+                letterR.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 19)
@@ -1036,48 +1076,58 @@ public class HangMan : MonoBehaviour
             {
                 playerLives--;
                 letterS.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterS.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 playerLives--;
                 letterS.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterS.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
                 playerLives--;
                 letterS.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterS.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 playerLives--;
                 letterS.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterS.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 playerLives--;
                 letterS.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterS.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 textBox04.text = "S";
+                letterS.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 textBox07.text = "S";
+                letterS.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 playerLives--;
                 letterS.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterS.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterS.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterS.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 textBox03.text = "S";
+                letterS.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 20)
@@ -1088,47 +1138,57 @@ public class HangMan : MonoBehaviour
             {
                 textBox03.text = "T";
                 textBox07.text = "T";
+                letterT.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 playerLives--;
                 letterT.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterT.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
                 playerLives--;
                 letterT.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterT.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 textBox08.text = "T";
+                letterT.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 textBox07.text = "T";
+                letterT.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 textBox08.text = "T";
+                letterT.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 playerLives--;
                 letterT.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterT.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 textBox05.text = "T";
+                letterT.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterT.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterT.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 playerLives--;
                 letterT.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterT.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 21)
@@ -1139,51 +1199,61 @@ public class HangMan : MonoBehaviour
             {
                 playerLives--;
                 letterU.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterU.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 playerLives--;
                 letterU.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterU.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
 
                 playerLives--;
                 letterU.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterU.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 playerLives--;
                 letterU.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterU.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 playerLives--;
                 letterU.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterU.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 playerLives--;
                 letterU.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterU.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 playerLives--;
                 letterU.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterU.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 textBox06.text = "U";
+                letterU.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterU.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterU.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 playerLives--;
                 letterU.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterU.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 22)
@@ -1192,6 +1262,7 @@ public class HangMan : MonoBehaviour
             Debug.Log(letterGuess);
             playerLives--;
             letterV.GetComponent<Image>().color = new Color(255, 0, 0);
+            letterV.GetComponent<Button>().enabled = false;
         }
         else if (buttonClicked == 23)
         {
@@ -1201,51 +1272,61 @@ public class HangMan : MonoBehaviour
             {
                 playerLives--;
                 letterW.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterW.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 playerLives--;
                 letterW.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterW.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
 
                 playerLives--;
                 letterW.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterW.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 playerLives--;
                 letterW.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterW.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 playerLives--;
                 letterW.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterW.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 playerLives--;
                 letterW.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterW.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 playerLives--;
                 letterW.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterW.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 playerLives--;
                 letterW.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterW.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterW.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterW.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 textBox01.text = "W";
+                letterW.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 24)
@@ -1254,6 +1335,7 @@ public class HangMan : MonoBehaviour
             Debug.Log(letterGuess);
             playerLives--;
             letterX.GetComponent<Image>().color = new Color(255, 0, 0);
+            letterX.GetComponent<Button>().enabled = false;
         }
         else if (buttonClicked == 25)
         {
@@ -1263,50 +1345,60 @@ public class HangMan : MonoBehaviour
             {
                 playerLives--;
                 letterY.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterY.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 2)
             {
                 textBox07.text = "Y";
+                letterY.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 3)
             {
                 playerLives--;
                 letterY.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterY.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 4)
             {
                 playerLives--;
                 letterY.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterY.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 5)
             {
                 playerLives--;
                 letterY.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterY.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 6)
             {
                 playerLives--;
                 letterY.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterY.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 7)
             {
                 playerLives--;
                 letterY.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterY.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 8)
             {
                 playerLives--;
                 letterY.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterY.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 9)
             {
                 playerLives--;
                 letterY.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterY.GetComponent<Button>().enabled = false;
             }
             else if (wordChosen == 10)
             {
                 playerLives--;
                 letterY.GetComponent<Image>().color = new Color(255, 0, 0);
+                letterY.GetComponent<Button>().enabled = false;
             }
         }
         else if (buttonClicked == 26)
@@ -1315,6 +1407,7 @@ public class HangMan : MonoBehaviour
             Debug.Log(letterGuess);
             playerLives--;
             letterZ.GetComponent<Image>().color = new Color(255, 0, 0);
+            letterZ.GetComponent<Button>().enabled = false;
         }
     }
 
